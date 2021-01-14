@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+li{
+    list-style: none;
+}
+.header>img{
+    width: 100%;
+}
+.tab{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logo{
+    height:70px;
+    width:70px;
+}
+
+.tab>div{
+  flex: 1;
+}
+.tab>div>ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab>div>ul>li{
+  margin-top: 40px;
+    flex: 1;
+    font-size: large;
+}
+
+.search-form{
+  text-align: right;
+}
+
+
+.box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .box {
+    width: 450px;
+    height: 600px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .box > .show {
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid #333;
+    position: relative;
+    /* cursor: none; */
+  }
+
+  .box > .show > .mask {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    pointer-events: none;
+
+    display: none;
+  }
+
+  .box > .list {
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .box > .list > p {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #333;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .box > .list > p.active {
+    border-color: orange;
+  }
+
+  .box > .enlarge {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 110%;
+    top: 0;
+    border: 1px solid red;
+    background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5a260090e0e08770b0bd865845a4b4ab.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 800px 800px;
+    z-index: 1;
+    display: none;
+  }
+  .fangda .box{
+    float: left;
+    /* width: 48%; */
+  }
+  .fangda .main{
+    float: right;
+    width: 50%;
+  }
+  .fangda .main span{
+    margin: 0 10px;
+    padding: 8px;
+    border: 1px solid black;
+
+  }
+  .main-name{
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .main .main-money span{
+  margin-top: 20px;
+  font-size:xx-large;
+  color: red;
+  border: none;
+}
+.main-color{
+  margin-top: 50px;
+  font-size: larger;
+}
+ .main-size{
+  margin-top: 50px;
+   font-size: larger;
+ }
+ .buy-num{
+   width: 50px;
+   height: 50px;
+   margin: 50px 0;
+ }

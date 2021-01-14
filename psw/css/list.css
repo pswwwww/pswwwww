@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+html,body{
+    width: 100%;
+
+}
+
+.mj{
+    width: 100%;
+    height: 120px;
+    background-position-x: -645px;
+}
+.mj img{
+    width: 100%;
+    height: 100%;
+}
+.main_header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.select{
+    width: 97%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #fff;
+    z-index: 3;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-left: 32px;
+    display: none;
+}
+.select>li{
+    float: left;
+   padding: 10px;
+}
+.select>li>div{
+    border-right: 2px solid #ccc;
+    width: 160px;
+    height: 110px;
+
+}
+.select>li>div>img{
+    width: 100%;
+}
+.main_header>a>img{
+    width: 55px;
+    height: 55px;
+ 
+}
+.main_header>ul>li{
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 26px 10px 38px;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+.main_header>ul>li:hover{
+    color: #FF6700;
+}
+.search{
+    float: right;
+    margin: 20px;
+    position: relative;
+}
+.search>input{
+    padding-left: 10px;
+    width: 235px;
+    height: 50px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+}
+.search:hover>input{
+    border: 1px solid #aaa;
+    transition: 0.5s;
+}
+.search:hover>button{
+    border: 1px solid #aaa;
+    transition: 0.5s;
+}
+.search>button:hover{
+    background-color: #FF6700;
+}
+.search>button{
+    width: 50px;
+    height: 52px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+}
+.search_tishi{
+    width: 235px;
+    height: 240px;
+    border: 1px solid #FF6700;
+    border-top: none;
+    z-index:4;
+    position: absolute;
+    top: 52px;
+    display: none;
+    padding-left:10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.search_tishi>div{
+    height: 30px;
+    line-height: 30px;
+}
+.left,.right{
+    float: left;
+    margin-left: 10px;
+}
+.right span{
+    width: 80px;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.right>span.active,
+.right>span:hover{
+    background-color: coral;
+    color: white;
+}
+
+
+.goodsList > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+   .goodsList  li {
+    box-sizing: border-box;
+    float: left;
+    width: 23%;
+  }
+  
+   .goodsList  li h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  
+   .goodsList > li .price {
+    font-size: 20pxs;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination a {
+    padding: 0 5px;
+    border: 1px solid #333;
+    margin: 0 5px;
+  }
+.pagination .list{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
